@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(240, 240, 240);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+.clock-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  width: 350px;
+  height: auto;
+}
+
+.btn-box {
+  margin: 30px 50px 30px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 25px 50px 25px 50px;
+}
+
+.btn {
+  display: flex;
+  cursor: pointer;
+  border: none;
+}
+
+p {
+  display: flex;
+  margin: 25px;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  width: 50px;
+  height: auto;
+}
+
+.arrow-1 {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: auto;
+  transform: rotate(180deg);
+}
+
+.arrow-2 {
+  display: flex;
+
+  align-items: center;
+  width: 50px;
+  height: auto;
+}
