@@ -8,11 +8,11 @@ var counter1 = document.querySelector(".count-1");
 var counter2 = document.querySelector(".count-2");
 
 upButton.addEventListener("click", () => {
-  if (count1 === 15) {
+  if (count1 < 15) {
+    count1++;
+  } else {
     count1--;
     upButton.style.transform = "rotate(180deg)";
-  } else {
-    count1++;
   }
   counter1.innerHTML = count1;
 });
